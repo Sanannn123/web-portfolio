@@ -1,0 +1,131 @@
+.container {
+  h1 {
+    text-align: center;
+    color: #212121;
+    font-size: 50px;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .row {
+    text-align: center;
+    align-items: center;
+    height: 60vh;
+    line-height: 100px;
+    margin-top: 50px;
+
+    div {
+      font-size: 50px;
+
+      span {
+        font-size: 27px;
+        color: black;
+        font-family: "Roboto Mono", monospace;
+      }
+    }
+
+    .html {
+      transition: 0.3s;
+    }
+    .html:hover {
+      color: rgb(255, 81, 0);
+      transform: scale(1.4);
+      transition: 0.3s;
+    }
+
+    .css {
+      transition: 0.3s;
+    }
+    .css:hover {
+      color: rgb(0, 81, 255);
+      transform: scale(1.4);
+      transition: 0.3s;
+    }
+
+    .sass {
+      transition: 0.3s;
+    }
+    .sass:hover {
+      color: rgb(255, 118, 141);
+      transform: scale(1.4);
+      transition: 0.3s;
+    }
+
+    .bootstrap {
+      transition: 0.3s;
+    }
+    .bootstrap:hover {
+      color: #6438b1;
+      transform: scale(1.4);
+      transition: 0.3s;
+    }
+
+    .javascript {
+      transition: 0.3s;
+    }
+    .javascript:hover {
+      color: rgb(226, 226, 12);
+      transform: scale(1.4);
+      transition: 0.3s;
+    }
+
+    .react {
+      transition: 0.3s;
+    }
+    .react:hover {
+      color: rgb(71, 205, 250);
+      transform: scale(1.4);
+    transition: 0.3s;
+    }
+
+    hr {
+      margin-top: 50px;
+    }
+
+    .photoshop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.3s;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+      span {
+        transition: 0.3s;
+      }
+
+      span:hover {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    .row {
+      div {
+        span {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+    h1 {
+      font-size: 38.5px;
+    }
+    .row {
+      text-align: center;
+      align-items: center;
+      height: 60vh;
+      line-height: 85px;
+      margin-top: 50px;
+    }
+  }
+}

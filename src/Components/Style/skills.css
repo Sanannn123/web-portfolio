@@ -1,0 +1,161 @@
+.container h1 {
+  text-align: center;
+  color: #212121;
+  font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container .row {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60vh;
+  line-height: 100px;
+  margin-top: 50px;
+}
+
+.container .row div {
+  font-size: 50px;
+}
+
+.container .row div span {
+  font-size: 27px;
+  color: black;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container .row .html {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .html:hover {
+  color: #ff5100;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .css {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .css:hover {
+  color: #0051ff;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .sass {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .sass:hover {
+  color: #ff768d;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .bootstrap {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .bootstrap:hover {
+  color: #6438b1;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .javascript {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .javascript:hover {
+  color: #e2e20c;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .react {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .react:hover {
+  color: #47cdfa;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row hr {
+  margin-top: 50px;
+}
+
+.container .row .photoshop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .photoshop img {
+  width: 80px;
+  height: 80px;
+}
+
+.container .row .photoshop span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .photoshop span:hover {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .container .row div span {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+  }
+  .container h1 {
+    font-size: 38.5px;
+  }
+  .container .row {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 60vh;
+    line-height: 85px;
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=skills.css.map */

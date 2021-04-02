@@ -1,0 +1,146 @@
+main {
+  .row {
+      align-items: center;
+      width: 100%;
+    .left-side {
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      h1 {
+        font-size: 95px;
+        color: #212121;
+        font-family: 'Merriweather', serif;
+      }
+      span {
+        font-size: 35px;
+        color: rgb(62, 62, 255);
+        font-weight: 400;
+      }
+
+      button{
+        background-color: rgb(0, 0, 223);
+        border: none;
+        border-radius: 17px;
+        color: white;
+        padding: 8px 12px;
+        font-size: 18.5px;
+        font-weight: 400;
+        a{
+          color: whitesmoke;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .right-side{
+        display: flex;
+        justify-content: center;
+        img{
+            height: 800px;
+
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+ main{
+   div{
+    .row{
+      .left-side{
+        h1{
+          font-size: 75px;
+        }
+        span{
+          font-size: 28px;
+        }
+      }
+
+      .right-side{
+        img{
+          height: 700px;
+        }
+      }
+    }
+   }
+ }
+}
+
+@media only screen and (max-width: 992px) {
+  main{
+    div{
+     .row{
+       .left-side{
+         h1{
+           font-size: 70px;
+         }
+         span{
+           font-size: 23px;
+         }
+       }
+
+       .right-side{
+        img{
+          height: 600px;
+        }
+      }
+     }
+    }
+  }
+}
+
+@media only screen and (max-width: 778px) {
+  main{
+    div{
+     .row{
+       .left-side{
+         h1{
+           font-size: 70px;
+         }
+         span{
+           font-size: 30px;
+         }
+       }
+
+       .right-side{
+        img{
+          height: 550px;
+        }
+      }
+     }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 530px) {
+  main{
+    div{
+     .row{
+       .left-side{
+         h1{
+           font-size: 68px;
+         }
+         span{
+           font-size: 22px;
+         }
+
+         button{
+           font-size: 15px;
+         }
+       }
+
+       .right-side{
+        img{
+          height: 400px;
+          margin-left: 10px;
+        }
+      }
+     }
+    }
+  }
+}
